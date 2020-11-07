@@ -3,9 +3,9 @@
 ### 始め方
 
 ```
-* git clone https://github.com/Soma-dev0808/aiAIAI-laravel.git
+git clone https://github.com/Soma-dev0808/aiAIAI-laravel.git
 
-* php artisan serve
+php artisan serve
 ```
 
 ### バージョン
