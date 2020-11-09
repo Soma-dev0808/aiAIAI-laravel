@@ -1,0 +1,96 @@
+.section {
+    padding: 60px 0 0;
+    font-size: 1rem;
+    text-align: center;
+}
+.section-header {
+    margin: 0 0 2.5em 0;
+    line-height: 1.2;
+}
+.section-title {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.how-to-buy-wrap {
+    width: calc(100% / 3.5);
+}
+.how-to-buy-img {
+    width: 100%;
+}
+.how-to-buy-description {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+.how-to-buy-num {
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    line-height:50px;
+    text-align:center;
+    color: white;
+    background-color: rgb(51,165,95);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+.how-to-buy-num-wrap {
+    width: 100%;
+}
+.information-board {
+    width: 100%;
+    background-color: rgb(235,255,237);
+}
+.information-detail {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    text-align: left;
+}
+.information-time {
+    margin-right: 1rem;
+}
+.information-row + .information-row{
+    margin-top: 0.5rem;
+}
+.information-link {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 960px) {
+    .how-to-buy-description {
+        font-size: 1em;
+    }
+}
+@media (max-width: 600px) {
+    .how-to-buy-wrap {
+        width: 100%;
+    }
+    .how-to-buy-img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .how-to-buy-description {
+        margin: 0 1.5rem;
+        font-size: 1.5em;
+    }
+    .how-to-buy-wrap + .how-to-buy-wrap {
+        margin-top: 2rem;
+    }
+    .information-detail {
+        font-size: 1rem;
+    }
+    .information-time {
+        font-size: 1rem;
+    }
+}

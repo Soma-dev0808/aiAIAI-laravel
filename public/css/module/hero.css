@@ -1,0 +1,36 @@
+.header-img-pc {
+    display: inline;
+}
+.header-img-smartphone {
+    display: none;
+}
+.hero {
+    position: relative;
+}
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2rem;
+}
+.hero img {
+    width: 100%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+@media (max-width: 960px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 0.6rem;
+    }
+    .header-img-pc {
+        display: none;
+    }
+    .header-img-smartphone {
+        display: inline;
+    }
+}

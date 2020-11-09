@@ -1,0 +1,48 @@
+.comapny-info-section {
+    margin-top: 5.5em;
+    margin-bottom: 5.5em;
+}
+
+.company-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.company-info-table tr {
+    border-bottom: solid 2px white;
+}
+
+.company-info-table tr:last-child {
+    border-bottom: none;
+}
+
+.company-info-table th {
+    position: relative;
+    text-align: left;
+    width: 30%;
+    background-color: #34a55e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.company-info-table th:after {
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: -10px;
+    border-left: 10px solid #34a55e;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.company-info-table td {
+    text-align: left;
+    width: 70%;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px 0;
+}
