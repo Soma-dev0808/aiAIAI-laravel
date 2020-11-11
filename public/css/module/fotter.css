@@ -1,0 +1,31 @@
+.footer {
+  background-color: rgb(52, 165, 94);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer-links {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.footer-link {
+  width: 25%;
+}
+.footer-link a {
+  color: white;
+}
+.address {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+.copy-right {
+  text-align: center;
+  color: white;
+  padding-bottom: 1.5rem;
+}

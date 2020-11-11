@@ -1,0 +1,35 @@
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.table-list td, .table-list th {
+    border-bottom: 1px solid #333;
+    padding: 1em 0.8em;
+}
+.table-list-col-type {
+    width: 7em;
+}
+.table-list-col-date {
+    width: 8em;
+}
+.table-list-icon {
+    display: inline-block;
+    width: 6em;
+    padding: 0.2em 1.2em;
+    border-radius: 1em;
+    background-color: #55c299;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: .875rem;
+    font-weight: bold;
+    text-align: center;
+}
+.table-list-date time {
+    font-weight: bold;
+    font-family: "Montserrat" sans-serif;
+    color: #999;
+}
+.table-list-link a {
+    color: #333;
+}

@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    height: 350px;
+    background: url("../../images/about-pricepad2.jpg") center center;
+    background-size: cover;
+}
+.about-copy {
+    margin-top: 1em;
+    font-size: 28px;
+    text-align: center;
+}
+.link_about_detail {
+    background-color: sienna;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+}

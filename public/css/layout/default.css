@@ -1,0 +1,51 @@
+.l-content-fixed {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.l-content-expanded {
+    width: auto;
+    margin: 0;
+}
+.l-multicolumn {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.l-multicolumn-how-to-buy {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.l-multicolumn-footer {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.l-column {
+    padding: 0 20px;
+}
+@media (max-width: 1024px) {
+    .l-content-fixed {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 960px) {
+    .l-content-fixed {
+        width: auto;
+        padding: 0 1rem;
+    }
+}
+@media (max-width: 600px) {
+    .l-multicolumn-how-to-buy {
+        display: block;
+    }
+    .l-multicolumn-footer {
+        display: block;
+    }
+    .l-column:first-child {
+        padding: 10px 20px 0px;
+    }
+}
