@@ -3,14 +3,24 @@
     padding: 0 20px;
     width: calc(100% / 6);
 }
+.recommended-item {
+    color: black;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 @media (max-width: 1024px) {
     .recommended-products {
         margin: 0 auto;
         padding: 0;
-        width: 90%;  /* コンテンツが見切れて見えるようにする */
-        overflow-x: auto;  /* 横スクロールの指定 */
-        white-space: nowrap;  /* 横スクロールの指定 */
-        -webkit-overflow-scrolling: touch;  /* スクロールを滑らかにする */
+        width: 90%; /* コンテンツが見切れて見えるようにする */
+        overflow-x: auto; /* 横スクロールの指定 */
+        white-space: nowrap; /* 横スクロールの指定 */
+        -webkit-overflow-scrolling: touch; /* スクロールを滑らかにする */
     }
     .recommended-product {
         width: 100%;

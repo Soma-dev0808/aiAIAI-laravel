@@ -26,13 +26,13 @@
     text-align: left;
 }
 .how-to-buy-num {
-    height:50px;
-    width:50px;
-    border-radius:50%;
-    line-height:50px;
-    text-align:center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
     color: white;
-    background-color: rgb(51,165,95);
+    background-color: rgb(51, 165, 95);
     font-weight: bold;
     font-size: 1.5rem;
     margin: 0 auto;
@@ -42,7 +42,7 @@
 }
 .information-board {
     width: 100%;
-    background-color: rgb(235,255,237);
+    background-color: rgb(235, 255, 237);
 }
 .information-detail {
     width: 90%;
@@ -56,11 +56,12 @@
 .information-time {
     margin-right: 1rem;
 }
-.information-row + .information-row{
+.information-row + .information-row {
     margin-top: 0.5rem;
 }
 .information-link {
     display: block;
+    color: black;
     top: 0;
     left: 0;
     width: 100%;
