@@ -28,13 +28,12 @@
             </span>
             @enderror
 
-            <a class="login-anchor" href="/auth/forgot-password">パスワードをお忘れの方</a>
+            <a class="login-anchor" href="/auth/password/reset">パスワードをお忘れの方</a>
             <button class="auth-button" type="submit">
                 <span class="state">{{ __('ログイン') }}</span>
             </button>
         </form>
         <div class="no-account"><a class="login-anchor" href="/auth/register">アカウントをお持ちでない方</a></div>
-
     </div>
 </section>
 @endsection

@@ -1,6 +1,10 @@
 .footer {
     color: white;
     background-color: rgb(51, 165, 95);
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .footer-content {
     width: 900px;

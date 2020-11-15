@@ -21,6 +21,10 @@ Route::group(['prefix' => 'auth'], function () {
     Route::get('/register', function() {
         return view('auth.register');
     });
+
+    Route::get('/password/reset', function() {
+        return view('auth.passwords.email');
+    });
 });
 
 Route::get('/', function () {
