@@ -5,7 +5,7 @@
 <section class="l-content-expanded hero">
     <img src="images/image-header.jpg" alt="PC用プライスパッドのヘッダー画像" class="header-img-pc">
     <img src="images/header-image-smartphone.jpg" alt="スマホ用プライスパッドのヘッダー画像" class="header-img-smartphone">
-    <h1>
+    <h1 class="catch-copy">
         <p>ネットでお買い物</p>
         <p>商品はご自宅近くの取次店にお届け</p>
         <p>買い物代行サービスの</p>
@@ -21,26 +21,26 @@
         <a href="" class="recommended-product">
 
             <img src="images/recomended_products/grape.png" alt="grape">
-            <h3>ぶどう 300円</h3>
+            <h3 class="recommended-item">ぶどう 300円</h3>
         </a>
         <a href="" class="recommended-product">
             <img src="images/recomended_products/peach.png" alt="peach">
-            <h3>もも 400円</h3>
+            <h3 class="recommended-item">もも 400円</h3>
         </a>
         <a href="" class="recommended-product">
             <img src="images/recomended_products/apple.png" alt="apple">
-            <h3>りんご 100円</h3>
+            <h3 class="recommended-item">りんご 100円</h3>
         </a>
         <a href="" class="recommended-product">
             <img src="images/recomended_products/banana.png" alt="banana">
-            <h3>バナナ 98円</h3>
+            <h3 class="recommended-item">バナナ 98円</h3>
         </a>
         <a href="" class="recommended-product">
             <img src="images/recomended_products/orange.png" alt="orange">
-            <h3>みかん 80円</h3>
+            <h3 class="recommended-item">みかん 80円</h3>
         </a>
     </div>
-    <a href="" class="btn"><i class="fas fa-angle-right btn-angle"></i>商品をもっと見る</a>
+    <a href="" class="custom-btn"><i class="fas fa-angle-right custom-btn-angle"></i>商品をもっと見る</a>
 </section>
 <!-- how to buy -->
 <section class="l-content-fixed section">
@@ -83,8 +83,8 @@
         </section>
     </div>
     <div class="how-to-buy-btns">
-        <a href="" class="btn"><i class="fas fa-angle-right btn-angle"></i>お買い物をする</a>
-        <a href="" class="btn"><i class="fas fa-angle-right btn-angle"></i>お買い物の仕方詳細へ</a>
+        <a href="" class="custom-btn"><i class="fas fa-angle-right custom-btn-angle"></i>お買い物をする</a>
+        <a href="" class="custom-btn"><i class="fas fa-angle-right custom-btn-angle"></i>お買い物の仕方詳細へ</a>
     </div>
 </section>
 <!-- information -->
@@ -114,7 +114,7 @@
             </p>
         </div>
     </div>
-    <a href="" class="btn"><i class="fas fa-angle-right btn-angle"></i>お知らせ一覧へ</a>
+    <a href="" class="custom-btn"><i class="fas fa-angle-right custom-btn-angle"></i>お知らせ一覧へ</a>
 </section>
 
 @endsection

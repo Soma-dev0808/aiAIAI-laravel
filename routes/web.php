@@ -13,14 +13,32 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::group(['prefix' => 'auth'], function () {
+    Route::get('/login', function () {
+        return view('auth.login');
+    });
+    
+    Route::get('/register', function() {
+        return view('auth.register');
+    });
+
+    Route::get('/password/reset', function() {
+        return view('auth.passwords.email');
+    });
 });
 
-Route::get('/login', function () {
-    return view('auth.login');
+Route::get('/', function () {
+    return view('index');
 });
 
 Route::get('/company-information', function () {
     return view('information.company_info');
 });
+
+Route::get('/contact-form', function () {
+    return view('information.contact_form');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

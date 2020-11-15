@@ -1,19 +1,19 @@
-.btn {
+.custom-btn {
     display: inline-block;
     padding: 0.6rem 1rem;
-    border: 2px solid rgb(51,165,95);
+    border: 2px solid rgb(51, 165, 95);
     border-radius: 2rem;
     text-decoration: none;
     color: white;
     font-weight: bold;
     cursor: pointer;
-    background-color: rgb(51,165,95);
+    background-color: rgb(51, 165, 95);
     font-size: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 255px;
 }
-.btn-angle {
+.custom-btn-angle {
     margin-right: 5px;
 }
 .how-to-buy-btns {
@@ -23,7 +23,7 @@
     align-items: center;
 }
 @media (max-width: 600px) {
-    .btn {
+    .custom-btn {
         width: 80%;
         margin: 1rem auto;
     }

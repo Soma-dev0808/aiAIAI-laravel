@@ -7,6 +7,7 @@
 .nav-menu-item {
     font-size: 1.2rem;
     font-weight: bold;
+    color: black;
 }
 .hamburger-btn {
     display: none;
@@ -22,7 +23,7 @@
         width: 80%;
         padding: 1rem;
         transition: left 0.3s ease-out 0s;
-        background-color: rgb(51,165,95);
+        background-color: rgb(51, 165, 95);
         text-align: center;
     }
     .nav-menu li {
@@ -59,7 +60,7 @@
         display: block;
         font-size: 2em;
         z-index: 999;
-        color:  rgb(51,165,95);
+        color: rgb(51, 165, 95);
     }
     .hamburger-btn-wrap {
         margin-left: 1rem;
