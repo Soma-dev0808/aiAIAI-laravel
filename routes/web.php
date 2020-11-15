@@ -31,6 +31,10 @@ Route::get('/company-information', function () {
     return view('information.company_info');
 });
 
+Route::get('/contact-form', function () {
+    return view('information.contact_form');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -44,6 +44,8 @@
     }
     .footer-title-link {
         display: block;
+        font-size: 1.17em;
+        font-weight: bold;
     }
     .footer-title-link a {
         color: white;

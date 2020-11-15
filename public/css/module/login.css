@@ -20,8 +20,13 @@
 }
 
 /* Override login form max-width */
-.register-form {
+.register-form,
+.contact-form {
     max-width: 560px;
+}
+
+.contact-form {
+    margin-bottom: 100px;
 }
 
 .input-field {
