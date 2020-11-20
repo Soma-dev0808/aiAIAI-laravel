@@ -1,0 +1,25 @@
+.guide_title {
+    margin-top: 2rem;
+}
+.guide_item {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+.guide_description {
+    margin-left: 3rem;
+}
+.guide-login-anchor {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(51, 165, 95);
+    text-decoration: none;
+}
+.guide-login-anchor:hover {
+    color: rgba(51, 165, 95, 0.5);
+    text-decoration: none;
+}
+@media (max-width:600px) {
+    .guide_description {
+        margin-left: 1rem;
+    }
+}

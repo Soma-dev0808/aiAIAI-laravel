@@ -22,6 +22,10 @@
     justify-content: space-around;
     align-items: center;
 }
+.shopping-btn {
+    width: 40%;
+    text-align: center;
+}
 @media (max-width: 600px) {
     .custom-btn {
         width: 80%;

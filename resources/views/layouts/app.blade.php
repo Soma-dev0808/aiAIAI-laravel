@@ -50,7 +50,7 @@
         @if(!Request::is("auth/*"))
         <nav class="l-content-expanded">
             <ul class="nav-menu" id="js-header-menu">
-                <li><a href="" class="nav-menu-item"><i class="fas fa-shopping-cart"></i>お買い物をする</a></li>
+                <li><a href="" class="nav-menu-item"><i class="fas fa-cash-register"></i>お買い物をする</a></li>
                 <li><a href="" class="nav-menu-item"><i class="fas fa-store"></i>出品店を見る</a></li>
                 <li><a href="" class="nav-menu-item"><i class="fas fa-shopping-basket"></i>取次店を見る</a></li>
                 <li><a href="" class="nav-menu-item"><i class="far fa-smile"></i>お買い物の仕方</a></li>

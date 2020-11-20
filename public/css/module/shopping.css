@@ -1,0 +1,83 @@
+.shopping-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.category-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.category-item {
+    width: 30%;
+    margin: 0;
+}
+.category-item > a {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.category-item:hover {
+    opacity: 0.7;
+}
+.category-item > a:hover {
+    text-decoration: none;
+    color: black;
+}
+.category-img {
+    width: 100%;
+    height: 200px;
+}
+.category-item + .category-item {
+    margin-left: 5%;
+}
+.category-fruits {
+    background-image: url("../../images/category/fruits.jpg");
+    background-size: cover;
+}
+.category-vegetable {
+    background-image: url("../../images/category/vegetable.jpg");
+    background-size: cover;
+}
+.category-meat {
+    background-image: url("../../images/category/meat.jpg");
+    background-size: cover;
+}
+.category-fish {
+    background-image: url("../../images/category/fish.jpg");
+    background-size: cover;
+}
+.category-seasoning {
+    background-image: url("../../images/category/goods.jpg");
+    background-size: cover;
+}
+.shopping-item-img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.shopping-btn-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 600px) {
+    .category-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .category-item {
+        width: 100%;
+    }
+    .category-item + .category-item {
+        margin-left: 0;
+    }
+    .category-item > a {
+        font-size: 1.5rem;
+    }
+    .shopping-btn-wrapper {
+        flex-direction: column;
+    }
+}
