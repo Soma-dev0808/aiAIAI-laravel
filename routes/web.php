@@ -39,6 +39,30 @@ Route::get('/contact-form', function () {
     return view('information.contact_form');
 });
 
+Route::get('/guide', function () {
+    return view('information.guide');
+});
+
+Route::get('/user', function () {
+    return view('user');
+});
+
+Route::get('/select-shop', function () {
+    return view('shopping.select-shop');
+});
+
+Route::get('/category', function () {
+    return view('shopping.category');
+});
+
+Route::get('/shopping', function () {
+    return view('shopping.shopping');
+});
+
+Route::get('/cart', function () {
+    return view('shopping.cart');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

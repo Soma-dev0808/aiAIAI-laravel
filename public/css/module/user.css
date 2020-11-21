@@ -1,0 +1,64 @@
+/* user top */
+.user-top-section {
+    margin-top: 6rem;
+}
+.user-top-btn-item {
+    width: 30%;
+    color: white;
+    background-color: rgb(51, 165, 95);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+.user-top-btn-item:hover {
+    opacity: 0.7;
+}
+.user-top-btn-link {
+    color: white;
+}
+.user-top-btn-link:hover {
+    color: white;
+    text-decoration: none;
+}
+.user-top-icon {
+    font-size: 3rem;
+}
+.select-shop-description {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.select-shop-btn {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    background-color: rgb(51, 165, 95);
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+}
+.select-shop-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+.carrot-icon {
+    color: #faae3c;
+}
+.go-to-buy-btn {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+@media (max-width: 950px) {
+    .user-top-section .l-multicolumn {
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-top-btn-item {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
