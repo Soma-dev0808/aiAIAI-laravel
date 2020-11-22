@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// LP
+Route::get('/', function () {
+    return view('index');
+});
+
+// Admin page
 Route::group(['prefix' => 'auth'], function () {
     Route::get('/login', function () {
         return view('auth.login');
@@ -27,10 +34,7 @@ Route::group(['prefix' => 'auth'], function () {
     });
 });
 
-Route::get('/', function () {
-    return view('index');
-});
-
+// No auth pages
 Route::get('/company-information', function () {
     return view('information.company_info');
 });
@@ -43,6 +47,23 @@ Route::get('/guide', function () {
     return view('information.guide');
 });
 
+Route::get('/faq', function() {
+    return view('information.faq');
+});
+
+Route::get('/term-of-service', function() {
+    return view('information.term_of_service');
+});
+
+ Route::get('/privacy-policy', function() {
+    return view('information.privacy_policy');
+});
+
+Route::get('/scta', function() {
+    return view('information.scta');
+});
+
+// User page
 Route::get('/user', function () {
     return view('user');
 });

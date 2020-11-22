@@ -46,3 +46,9 @@
     background-color: #eee;
     padding: 10px 0;
 }
+
+.about-business {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}

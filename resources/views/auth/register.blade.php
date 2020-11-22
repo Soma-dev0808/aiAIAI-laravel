@@ -65,6 +65,17 @@
             </span>
             @enderror
 
+            {{-- confirm password --}}
+            <input type="password" name="confirm_password" id="confirm_password" placeholder="確認用パスワード" autofocus
+                class="input-field @error('confirm_password') is-invalid @enderror"
+                value="{{ old('confirm_password') }}" required autocomplete="confirm_password" />
+
+            @error('confirm_password')
+            <span class="invalid-feedback" role="alert">
+                <strong>{{ $message }}</strong>
+            </span>
+            @enderror
+
             {{-- phone number --}}
             <input type="number" name="phone_number" id="phone_number" placeholder="電話番号"
                 class="input-field @error('phone_number') is-invalid @enderror" value="{{ old('phone_number') }}"
