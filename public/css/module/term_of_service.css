@@ -1,0 +1,36 @@
+#term-of-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+#term-of-service p {
+    font-size: 0.9rem;
+}
+
+#term-of-service .desc-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#term-of-service .desc-title {
+    width: 60%;
+    border-bottom: 1px solid #33a55f;
+}
+
+#term-of-service .dl-content {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    #term-of-service {
+        margin-bottom: 10px;
+        padding: 30px;
+    }
+}
