@@ -18,6 +18,13 @@
     color: rgba(51, 165, 95, 0.5);
     text-decoration: none;
 }
+.img-guide {
+    width: 100%;
+    border: solid 1px #000000;
+}
+.guide-content {
+    margin-bottom: 5rem;
+}
 @media (max-width:600px) {
     .guide_description {
         margin-left: 1rem;
