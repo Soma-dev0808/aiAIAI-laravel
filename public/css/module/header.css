@@ -11,6 +11,12 @@
     font-size: 3em;
     font-weight: bold;
     color: rgb(51,165,95);
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+.header-logo:hover {
+    text-decoration: none;
+    color: rgb(51,165,95);
+    opacity: 0.7;
 }
 .header-btns {
     font-size: 2em;

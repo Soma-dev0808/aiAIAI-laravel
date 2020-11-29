@@ -12,6 +12,11 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 255px;
+    text-align: center;
+}
+.custom-btn:hover {
+    text-decoration: none;
+    color: white;
 }
 .custom-btn-angle {
     margin-right: 5px;
@@ -25,6 +30,10 @@
 .shopping-btn {
     width: 40%;
     text-align: center;
+}
+.shopping-btn:hover {
+    color: white;
+    text-decoration: none;
 }
 @media (max-width: 600px) {
     .custom-btn {
