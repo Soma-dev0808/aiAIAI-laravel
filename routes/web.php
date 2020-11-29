@@ -81,11 +81,27 @@ Route::get('/category', function () {
 });
 
 Route::get('/shopping', function () {
-    return view('shopping.shopping');
+    return view('shopping.index');
 });
 
 Route::get('/cart', function () {
     return view('shopping.cart');
+});
+
+Route::get('/shopping/received', function () {
+    return view('shopping.received');
+});
+
+Route::get('/news', function () {
+    return view('news.index');
+});
+
+Route::get('/news/20201128', function () {
+    return view('news.20201128');
+});
+
+Route::get('/search', function () {
+    return view('search');
 });
 
 Auth::routes();
