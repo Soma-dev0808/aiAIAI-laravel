@@ -32,6 +32,10 @@ Route::group(['prefix' => 'auth'], function () {
     Route::get('/password/reset', function() {
         return view('auth.passwords.email');
     });
+
+    Route::get('/password/reset/email', function() {
+        return view('auth.passwords.reset');
+    });
 });
 
 // No auth pages
