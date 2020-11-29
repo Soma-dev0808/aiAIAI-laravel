@@ -1,0 +1,72 @@
+.prefecture {
+    background-color: #82f1998f;
+    border-top: 2px solid rgba(0, 0, 0, 0.318);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.318);
+}
+
+.shop-list {
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-contaier {
+    width: 35%;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.logo-contaier .shop-logo {
+    width: 100px;
+}
+
+.shop-info-container {
+    width: 65%;
+    padding-left: 20px;
+}
+
+.shop-info-container .shop-link {
+    color: black;
+}
+
+.shop-info-container .shop-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.shop-info-container .shop-detail {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 650px) {
+    .logo-contaier {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-contaier {
+        width: 25%;
+        margin-right: 10px;
+    }
+
+    .logo-contaier .shop-logo {
+        width: 70px;
+    }
+
+    .shop-info-container {
+        width: 75%;
+    }
+
+    .shop-info-container .shop-name {
+        font-size: 1rem;
+    }
+
+    .shop-info-container .shop-detail {
+        font-size: 0.8rem;
+    }
+}
