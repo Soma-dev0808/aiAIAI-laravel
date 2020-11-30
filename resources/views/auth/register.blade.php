@@ -32,6 +32,30 @@
                 </div>
             </div>
 
+            {{-- name --}}
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <input type="text" id="last_name_kana" name="last_name_kana" placeholder="姓(カナ)" autofocus
+                        class="input-field @error('last_name_kana') is-invalid @enderror"
+                        value="{{ old('last_name_kana') }}" required autocomplete="last_name_kana" />
+                    @error('last_name_kana')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <input type="text" id="frist_name_kana" name="frist_name_kana" placeholder="名(カナ)" autofocus
+                        class="input-field @error('frist_name_kana') is-invalid @enderror"
+                        value="{{ old('frist_name_kana') }}" required autocomplete="frist_name_kana" />
+                    @error('frist_name_kana')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                </div>
+            </div>
+
             {{-- username --}}
             <input type="text" name="username" id="username" placeholder="ユーザーネーム"
                 class="input-field @error('username') is-invalid @enderror" value="{{ old('username') }}" required
