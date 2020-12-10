@@ -45,7 +45,7 @@
                         8%
                     </span>
                     <span class="item-num">
-                        <input type="text" value="1" class="item-num-input"> 
+                        <input type="text" value="1" class="item-num-input">
                     </span>
                     <span class="cart-subtotal">
                         129円
@@ -70,7 +70,7 @@
                         10%
                     </span>
                     <span class="item-num">
-                        <input type="text" value="1" class="item-num-input"> 
+                        <input type="text" value="1" class="item-num-input">
                     </span>
                     <span class="cart-subtotal">
                         2,200円

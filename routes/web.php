@@ -77,6 +77,17 @@ Route::group(['prefix' => 'information'], function () {
         return view('information.branch_list');
     });
     
+    Route::get('/news', function () {
+        return view('news.index');
+    });
+
+    Route::get('/news/20201128', function () {
+        return view('news.20201128');
+    });
+
+    Route::get('/search', function () {
+        return view('search');
+    });
 });
 
 // User page
@@ -105,17 +116,10 @@ Route::group(['prefix' => 'user'], function () {
         return view('shopping.received');
     });
 
-    Route::get('/news', function () {
-        return view('news.index');
+    Route::get('/account', function () {
+        return view('auth.account');
     });
 
-    Route::get('/news/20201128', function () {
-        return view('news.20201128');
-    });
-
-    Route::get('/search', function () {
-        return view('search');
-    });
 });
 
 Auth::routes();

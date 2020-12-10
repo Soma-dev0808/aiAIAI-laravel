@@ -18,6 +18,12 @@
         </div>
         <div class="user-top-btn-item">
             <a href="" class="user-top-btn-link">
+                <p>ポイントを確認</p>
+                <p><i class="fas fa-user user-top-icon"></i></p>
+            </a>
+        </div>
+        <div class="user-top-btn-item">
+            <a href="" class="user-top-btn-link">
                 <p>アカウント情報</p>
                 <p><i class="fas fa-user user-top-icon"></i></p>
             </a>
